@@ -9,7 +9,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", 21378032))
 API_HASH = getenv("API_HASH", "a716d8cdf43914ec5eb21c2c46ea43b1")
-BOT_TOKEN = getenv("BOT_TOKEN","6641110957:AAFg0XNZ5cQ8mCbDNaBlBIdqI2jfFMfbGuE")
+BOT_TOKEN = getenv("BOT_TOKEN","6641110957:AAFSK_5rnp8KTzniJNefc9BrJhIr5rTavI0")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://NamohMusic:NamohMusic@namoh.h483itu.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1080))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002145500929))
